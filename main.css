@@ -8,10 +8,28 @@ pre {
     font-family: 'Montserrat', sans-serif;
 }
 
-.portfolio {
-  padding : px;
+#portfolio-list {
+
+  display:
+  justify-content: ;
+  flex-wrap:;
 }
 
+.portfolio {
+  display: inline-block;
+  text-align: center;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.portfolio-name {
+  margin-top:20px;
+  margin-bottom:5px;
+}
+
+
+
 .me {
-  float : right;
+  float: right;
 }
