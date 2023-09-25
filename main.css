@@ -137,7 +137,8 @@ transform: rotate(-14.54deg);
 .item7 { 
   grid-area: header2; 
   font-size:30px;
-  background-color:; 
+  color : white;
+  background-color:rgb(0, 89, 255); 
 
 }
 .item8 { 
