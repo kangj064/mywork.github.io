@@ -11,7 +11,7 @@ COLOR : rgb(0, 89, 255);
 .image-thumbnail0 {
   
  /* position: absolute;*/
- padding-left: 50px;
+/* padding-left: 50px; */
   left: 24px;
   top: 90.96000000000001px;
   transform: rotate(0deg);
@@ -26,8 +26,8 @@ COLOR : rgb(0, 89, 255);
   position: absolute;
 width: 410px;
 height: 196px;
-left: 741px;
-top: 136.96px;
+left: 885px;
+top: 82.96000000000001px;
   transform: rotate(-14.54deg);
   overflow:hidden;
   margin:0 auto;
@@ -81,6 +81,26 @@ top: 136.96px;
   object-fit:cover;
 }
 
+
+.image-box4 {
+  
+  position: absolute;
+  width: 227px;
+  height: 179px;
+  left: 766px;
+  top: 424.96000000000004px;
+  transform: rotate(350deg);
+  overflow: hidden;
+  margin: 0 auto;
+
+}
+
+.image-thumbnail4 {
+  
+  width:100%;
+  height:100%;
+  object-fit:cover;
+}
 
 .image{
   /* Group 1 */
@@ -146,12 +166,10 @@ column-count: 2;}
   grid-template-areas:
     'header header2 header3 header3 header3 header3'
     'menu main main main main right'
-    'menu footer footer footer footer footer'
-    'menu footer footer footer footer footer'
-    'menu footer footer footer footer footer'
-    'menu footer footer footer footer footer'
-    'menu footer footer footer footer footer'
-    'menu footer footer footer footer footer'
+    'footer footer footer footer footer right'
+    'footer footer footer footer footer right'
+    'footer footer footer footer footer right'
+ 
     'me me me me me me';
   gap: px;
   background-color: ;
