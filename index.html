@@ -21,6 +21,31 @@
 
     </div>  
     <div class="item4">
+      <canvas id="myCanvas" width="200" height="900"></canvas>
+      <script>
+var myCanvas = document.getElementById("myCanvas");
+		var drawingContext = myCanvas.getContext("2d");
+
+
+var color1 = "#0059FF",color2="#ffffff";
+var numberOfStripes = 10;		
+for (var i=0;i<numberOfStripes*2;i++){
+  var thickness = 300 / numberOfStripes;
+  drawingContext.beginPath();
+  drawingContext.strokeStyle = i % 2?color1:color2;
+  drawingContext.lineWidth =5;
+  drawingContext.lineCap = 'round';
+  
+   drawingContext.moveTo(i*thickness + thickness/2 - 300,0);
+  drawingContext.lineTo(0 + i*thickness+thickness/2,900);
+  drawingContext.stroke();
+}
+
+
+  
+		
+      </script>
+        
         <!-- 컬러 팔레트 컨테이너 -->
         <div class="color-label-container">
           <!-- 색상 선택 라디오 버튼 -->
