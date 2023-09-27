@@ -21,7 +21,7 @@
 
     </div>  
     <div class="item4">
-      <canvas id="myCanvas" width="200" height="900"></canvas>
+      <canvas id="myCanvas" width="200" height="500"></canvas>
       <script>
 var myCanvas = document.getElementById("myCanvas");
 		var drawingContext = myCanvas.getContext("2d");
@@ -30,14 +30,14 @@ var myCanvas = document.getElementById("myCanvas");
 var color1 = "#0059FF",color2="#ffffff";
 var numberOfStripes = 10;		
 for (var i=0;i<numberOfStripes*2;i++){
-  var thickness = 300 / numberOfStripes;
+  var thickness = 500 / numberOfStripes;
   drawingContext.beginPath();
   drawingContext.strokeStyle = i % 2?color1:color2;
   drawingContext.lineWidth =5;
   drawingContext.lineCap = 'round';
   
-   drawingContext.moveTo(i*thickness + thickness/2 - 300,0);
-  drawingContext.lineTo(0 + i*thickness+thickness/2,900);
+   drawingContext.moveTo(i*thickness + thickness/2 - 600,0);
+  drawingContext.lineTo(0 + i*thickness+thickness/2,500);
   drawingContext.stroke();
 }
 
@@ -71,7 +71,7 @@ for (var i=0;i<numberOfStripes*2;i++){
       
       </div>
  
-      <button onclick="changeBackgroundColor()">CHANGE MY MIND</button>
+      <button onclick="changeBackgroundColor()">Change your mind</button>
   
 
 
@@ -372,14 +372,23 @@ for (var i=0;i<numberOfStripes*2;i++){
                 text-align: center;
             }
             button {
-           /* position: absolute; */
-    top: 277px;
-    left: 1380px;
-                padding: 10px 20px;
-                font-size: 16px;
+            position: absolute; 
+     
+ 	margin: ;
+    width: 200px;
+    transform: rotate(-15deg);
+    height: 80px;
+    background-color:#ffe600;
+    color: rgb(0, 0, 0);
+    border-radius: 100%;
+    border: unset;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+                
             }
             .color-label-container {
-              /* position: absolute; */
+            /*  position: FIXED; */
     top: 77px;
     left: 1180px;
             }
