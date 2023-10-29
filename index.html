@@ -6,7 +6,7 @@
 
 
 
-  <Div class="grid-container">
+  <div class="grid-container">
     <div class="item1">Jisu Kang  </div>
     <div class="item7">kangj064@newschool.edu </div>
     <div class="item8">UI/UX + EDITORIAL + GRAPHIC + ILLUSTRATION </div>
@@ -17,92 +17,59 @@
         so go ahead and click. And if you change the color palette on the right, 
         the website's colors will change accordingly. Be sure to give it a try.
         And if you change the color palette on the right,  the website's colors will change accordingly.
-
-
     </div>  
     <div class="item4">
       <canvas id="myCanvas" width="200" height="500"></canvas>
       <script>
-var myCanvas = document.getElementById("myCanvas");
-		var drawingContext = myCanvas.getContext("2d");
-
-
-var color1 = "#0059FF",color2="#ffffff";
-var numberOfStripes = 10;		
-for (var i=0;i<numberOfStripes*2;i++){
-  var thickness = 500 / numberOfStripes;
-  drawingContext.beginPath();
-  drawingContext.strokeStyle = i % 2?color1:color2;
-  drawingContext.lineWidth =5;
-  drawingContext.lineCap = 'round';
-  
-   drawingContext.moveTo(i*thickness + thickness/2 - 600,0);
-  drawingContext.lineTo(0 + i*thickness+thickness/2,500);
-  drawingContext.stroke();
-}
-
-
-  
-		
+        var myCanvas = document.getElementById("myCanvas");
+	  	  var drawingContext = myCanvas.getContext("2d");
+        var color1 = "#0059FF",color2="#ffffff";
+        var numberOfStripes = 10;		
+        for (var i=0;i<numberOfStripes*2;i++)
+        {
+        var thickness = 500 / numberOfStripes;
+        drawingContext.beginPath();
+        drawingContext.strokeStyle = i % 2?color1:color2;
+        drawingContext.lineWidth =5;
+        drawingContext.lineCap = 'round';
+        drawingContext.moveTo(i*thickness + thickness/2 - 600,0);
+        drawingContext.lineTo(0 + i*thickness+thickness/2,500);
+        drawingContext.stroke();
+        }
       </script>
-        
-        <!-- 컬러 팔레트 컨테이너 -->
-        <div class="color-label-container">
-          <!-- 색상 선택 라디오 버튼 -->
-          <label class="color-label" style="background-color: #ffffff;">
+      <!-- 컬러 팔레트 컨테이너 -->
+      <div class="color-label-container">
+        <!-- 색상 선택 라디오 버튼 -->
+        <label class="color-label" style="background-color: #ffffff;">
               <input type="radio" name="color" value="#ffffff">
-          </label>
-       
-          <label class="color-label" style="background-color: #ff0000;">
+        </label> 
+        <label class="color-label" style="background-color: #ff0000;">
             <input type="radio" name="color" value="#fff822">
         </label>
-     
-          <label class="color-label" style="background-color: #fff822;">
+        <label class="color-label" style="background-color: #fff822;">
               <input type="radio" name="color" value="#fff822">
-          </label>
-       
-          <label class="color-label" style="background-color: #1ea23f;">
+        </label>
+        <label class="color-label" style="background-color: #1ea23f;">
               <input type="radio" name="color" value="#1ea23f">
-          </label>
-       
-          <label class="color-label" style="background-color: #4134ff;">
+        </label>
+        <label class="color-label" style="background-color: #4134ff;">
             <input type="radio" name="color" value="#1ea23f">
         </label>
-      
       </div>
- 
       <button onclick="changeBackgroundColor()">Change your mind</button>
-  
-
-
     </div>
-    
     <div class="item5">안녕하세요 이건 제 포폴 사이트구요 알아서 잘 구경하다 가세요 어찌구 저찌구 포폴 사이트랍니다~ 
       알아서 구경하세요 알아서 잘 구경하다 가세요 알아서 잘 어찌구 저찌구 알아서 잘 구경하다 가세요 
-      <Br>
-        <Br>
-          <Br>
-            <Br>
-              <Br>
-                <Br>
-                  <Br>
-                    <Br>
-                      <Br>
-                        <Br>
-                          <Br>
-
-    
-    
+      <br><br><br><br><br><br><br><br><br><br><br><br>
     </div>
-    <div class="item6">
+    <div class="item6"> <!-- 포폴 이미지 -->
+      <P>CLICK THE IMAGES, THEN YOU CAN CHECK THE DETAIL</P> 
 
-        
       <div class="image-box">
         <a href="https://google.com">
         <img class="image-thumbnail" src="img/eagle.jpg"/>
         </a>
       </div>
-
       <div class="image-box2">
         <a href="https://google.com">
         <img class="image-thumbnail2" src="img/book.png"/>
@@ -121,61 +88,28 @@ for (var i=0;i<numberOfStripes*2;i++){
         </a>
       </div>
 
-      
-      <pre>
-        <h6>
-        EUCATION
-      
-        <img src="img/parsons.png" height="15"/> 
-        08/2022 – 07/2025 
-        Parsons School of Design (BFA) – <br>
-        Communication Design
+      <div class="image-box5">
+          <a href="home.html">
+          <img class="image-thumbnail5" src="img/book/1.jpg"/>
+          </a>
+      </div>
 
-        <img src="img/seoul.png" height="20"/>  
-        03/2018 – 02/2021 
-        Seoul Institute of the Arts (AA) – <br>
-        Creative Advertising / GPA(3.4/4.0)
-      
-      
-      CAMPUS ENGAGEMENT
-      
-      03/2018 - 02/2021
-      Club Creation& President
-      Inspired by the fairy tale ‘Bremen Musician town’, I created
-      an amateur orchestra club.
-      
-      INTERNSHIP
-      
-      2018 11 - 201812
-      MSV STUDIO (animation sutido) - SNS CONTESNTS MAKER
-      I produced SNS contents to promote animation.
-      
-      WORK EXPERIENCE
-      
-      11/ 2021 – 7/2022
-      TOWMOO (classical music company) - WRITER
-      I wrote an interesting script to introduce classical music to the public.
-      
-      SKILLS
-      
-      <img src="img/skill.png" width="300"/>
-      </h6>
-      </pre>
+      <div class="image-box6">
+            <a href="home.html">
+            <img class="image-thumbnail6" src="img/book/2.jpg"/>
+            </a>
+
+            
+      </div>
     </div>
-  </div>
+  </div><!-- 그리드 디브 끝 -->
+ 
 
-  <div class=me><img src="img/realme.png" float= right; height="550"/></div>
+  <div class=me>
+    <img src="img/realme.png" float= right; height="550"/>
+  </div>
   
 
-    
-
-
-
-
-
-<div style="height: auto; width: 100%; border-bottom:1px solid black;">
-
-</div>
 
 <center>
     <h1> My Drawings </h1>
