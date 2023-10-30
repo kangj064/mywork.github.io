@@ -263,7 +263,8 @@ color : white;
 }
 .item10{grid-area: made;
   background-color:; 
-column-count: 2;
+  text-align: left;
+column-count: 1;
 padding: 10px;}
 
 .item11{grid-area: drawell;
