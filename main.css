@@ -183,7 +183,27 @@ COLOR : rgb(0, 89, 255);
   z-index: 10;
 }
 
+.image-box9 {
+  position: absolute;
+  width: 171px;
+  height: 100px;
+  left: 681px;
+  top: 188.96000000000004px;
+  transform: rotate(3deg);
+  overflow: hidden;
+  margin: 0 auto;
+  z-index: 10;
+}
 
+
+
+.image-thumbnail9 {
+  
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  z-index: 10;
+}
 .image{
   /* Group 1 */
 
