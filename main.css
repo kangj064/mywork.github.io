@@ -21,7 +21,7 @@ COLOR : rgb(0, 89, 255);
 
 
 
-.image-box {
+.image-box { /*피아노 부신거*/
   position: absolute;
   width: 229px;
   height: 163px;
@@ -39,7 +39,7 @@ COLOR : rgb(0, 89, 255);
   object-fit:cover;
 }
 
-.image-box2 {
+.image-box2 { /*포스터*/
   position: absolute;
   width: 200px;
   height: 264px;
@@ -48,7 +48,7 @@ COLOR : rgb(0, 89, 255);
   transform: rotate(357deg);
   overflow: hidden;
   margin: 0 auto;
-  z-index: 11;
+  z-index: 0;
 
 }
 
@@ -59,7 +59,7 @@ COLOR : rgb(0, 89, 255);
   object-fit:cover;
 }
 
-.image-box3 {
+.image-box3 { /*땅따먹기 표지*/
   
   position: absolute;
   width: 336px;
@@ -69,6 +69,7 @@ COLOR : rgb(0, 89, 255);
   transform: rotate(12deg);
   overflow: hidden;
   margin: 0 auto;
+  box-shadow: 10px 10px 10px rgb(0, 89, 255); 
 
 }
 
@@ -80,7 +81,7 @@ COLOR : rgb(0, 89, 255);
 }
 
 
-.image-box4 {
+.image-box4 { /*땅따먹기 책*/
   
   position: absolute;
   width: 227px;
@@ -90,6 +91,7 @@ COLOR : rgb(0, 89, 255);
   transform: rotate(350deg);
   overflow: hidden;
   margin: 0 auto;
+  box-shadow: 10px 10px 10px rgb(0, 89, 255); 
 
 }
 
@@ -100,7 +102,7 @@ COLOR : rgb(0, 89, 255);
   object-fit:cover;
 }
 
-.image-box5 {
+.image-box5 { /*아스팔트*/
   
   position: absolute;
   width: 227px;
@@ -110,6 +112,7 @@ COLOR : rgb(0, 89, 255);
   transform: rotate(14deg);
   overflow: hidden;
   margin: 0 auto;
+  box-shadow: 10px 10px 10px rgb(0, 89, 255); 
 
 }
 
@@ -120,7 +123,7 @@ COLOR : rgb(0, 89, 255);
   object-fit:cover;
 }
 
-.image-box6 {
+.image-box6 { /*점프신*/
   
   position: absolute;
   width: 356px;
@@ -130,6 +133,7 @@ COLOR : rgb(0, 89, 255);
   transform: rotate(351deg);
   overflow: hidden;
   margin: 0 auto;
+  box-shadow: 10px 10px 10px rgb(0, 89, 255); 
 }
 
 
@@ -141,7 +145,7 @@ COLOR : rgb(0, 89, 255);
   object-fit:cover;
 }
 
-.image-box7 {
+.image-box7 { /*정치무당*/
   position: absolute;
   width: 157px;
   height: 159px;
@@ -150,6 +154,8 @@ COLOR : rgb(0, 89, 255);
   transform: rotate(2deg);
   overflow: hidden;
   margin: 0 auto;
+  z-index: -1;
+
 }
 
 
@@ -161,7 +167,7 @@ COLOR : rgb(0, 89, 255);
   object-fit:cover;
 }
 
-.image-box8 {
+.image-box8 { /*하회탈*/
   position: absolute;
   width: 230px;
   height: 126px;
@@ -171,6 +177,7 @@ COLOR : rgb(0, 89, 255);
   overflow: hidden;
   margin: 0 auto;
   z-index: 10;
+  box-shadow: 10px 10px 10px rgb(0, 89, 255); 
 }
 
 
@@ -183,7 +190,7 @@ COLOR : rgb(0, 89, 255);
   z-index: 10;
 }
 
-.image-box9 {
+.image-box9 { /*희미한 메모리*/
   position: absolute;
   width: 171px;
   height: 100px;
@@ -193,6 +200,7 @@ COLOR : rgb(0, 89, 255);
   overflow: hidden;
   margin: 0 auto;
   z-index: 10;
+  box-shadow: 10px 10px 10px rgb(0, 89, 255); 
 }
 
 
@@ -205,7 +213,7 @@ COLOR : rgb(0, 89, 255);
   z-index: 10;
 }
 
-.image-box10 {
+.image-box10 { /*운명을 사랑하라*/
   position: absolute;
   width: 208px;
   height: 144px;
@@ -215,11 +223,12 @@ COLOR : rgb(0, 89, 255);
   overflow: hidden;
   margin: 0 auto;
   z-index: 10;
+  box-shadow: 10px 10px 10px rgb(0, 89, 255); 
 }
 
 
 
-.image-thumbnail10 {
+.image-thumbnail10 { 
   
   width:100%;
   height:100%;
