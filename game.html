@@ -17,7 +17,7 @@
         <p>Personal Artwork</p>
       </div>
       <div class="item222">
-        <p>-09.2023 - 10. 2023</p>
+        <p>09.2023 - 10. 2023</p>
       </div>
       <div class="item3">
         <div class="text">
@@ -64,26 +64,30 @@
           style="height: 300px"
         />
       </div>
-      <iframe
-        width="560"
-        height="300"
-        src="https://youtu.be/to8Y1xYv9-s?si=gSR8IIoC9PdW5_AO"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        allowfullscreen
-      ></iframe>
+      <div class="item5">
+        <iframe
+          width="560"
+          height="300"
+          src="https://youtu.be/to8Y1xYv9-s?si=gSR8IIoC9PdW5_AO"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+      </div>
     </div>
   </body>
 
   <style>
     .grid-container {
-      border: 5px solid rgb(255, 0, 255);
+      border: 5px solid rgb(57, 21, 119);
       display: grid;
       grid-template-areas:
         "title title title"
         "text1 text2 text3"
-        "maintext maintext maintext";
+        "maintext maintext maintext"
+        "img img img"
+        "video video video";
       gap: px;
       background-color: ;
       padding: px;
@@ -101,7 +105,7 @@
     .grid-container > .item1 {
       grid-area: title;
       background-color: ;
-      border: 3px solid rgb(255, 0, 255);
+      border: 3px solid rgb(57, 21, 119);
       text-align: left;
       z-index: 10;
 
@@ -111,7 +115,7 @@
     .grid-container > .item2 {
       grid-area: text1;
       background-color: ;
-      border: 3px solid rgb(255, 0, 255);
+      border: 3px solid rgb(57, 21, 119);
       text-align: left;
       z-index: 10;
 
@@ -121,7 +125,7 @@
     .grid-container > .item22 {
       grid-area: text2;
       background-color: ;
-      border: 3px solid rgb(255, 0, 255);
+      border: 3px solid rgb(57, 21, 119);
       text-align: left;
       z-index: 10;
 
@@ -132,7 +136,7 @@
     .grid-container > .item222 {
       grid-area: text3;
       background-color: ;
-      border: 3px solid rgb(255, 0, 255);
+      border: 3px solid rgb(57, 21, 119);
       text-align: left;
       z-index: 10;
 
@@ -142,14 +146,33 @@
     .grid-container > .item3 {
       grid-area: maintext;
       background-color: ;
-      border: 3px solid rgb(255, 0, 255);
+      border: 3px solid rgb(57, 21, 119);
       text-align: left;
       z-index: 10;
 
       font-size: 100;
       font-weight: 600;
     }
+    .grid-container > .item4 {
+      grid-area: img;
+      background-color: ;
+      border: 3px solid rgb(57, 21, 119);
+      text-align: left;
+      z-index: 10;
 
+      font-size: 100;
+      font-weight: 600;
+    }
+    .grid-container > .item5 {
+      grid-area: video;
+      background-color: ;
+      border: 3px solid rgb(57, 21, 119);
+      text-align: left;
+      z-index: 10;
+
+      font-size: 100;
+      font-weight: 600;
+    }
     body {
       font-family: "IBM Plex Sans", sans-serif;
     }
