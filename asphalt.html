@@ -9,35 +9,168 @@
   </head>
   <body>
     <div class="grid-container">
-      <img class="fit-picture" src="img/book/1.jpg" style="height: 500px" />
+      <div class="item1">Asphalt Book</div>
 
-      <img class="fit-picture" src="img/book/2.jpg" style="height: 500px" />
-      <img class="fit-picture" src="img/book/3.jpg" style="height: 500px" />
-      <img class="fit-picture" src="img/book/4.jpg" style="height: 500px" />
-      <img class="fit-picture" src="img/book/5.jpg" style="height: 500px" />
-      <img class="fit-picture" src="img/book/6.jpg" style="height: 500px" />
-      <img class="fit-picture" src="img/book/7.jpg" style="height: 500px" />
+      <div class="item2">
+        <p>Book Design</p>
+      </div>
+      <div class="item22">
+        <p>Personal Artwork</p>
+      </div>
+      <div class="item222">
+        <p>09.2023 - 10. 2023</p>
+      </div>
+      <div class="item3">
+        <div class="text">
+          <p style="max-width: 1400px">
+            I focused on the locker paint for the construction on the asphalt in
+            the city of New York. It may be easy to overlook, but it ultimately
+            signifies that the city is working for us. By connecting invisible
+            pipelines or gas lines through lines, I aimed to turn this into a
+            book and emphasize the sense of community in our community. I
+            created it as an unfoldable poster book by not binding it.
+          </p>
+        </div>
+      </div>
+      <div class="item4">
+        <p style="font-size: 50px; font-weight: 600">
+          <i> ""The extension of invisible connecting lines."" </i>
+        </p>
+        <p style="max-width: 1400px">
+          .
+          <br />
+        </p>
+      </div>
+      <div class="item5">
+        <center>
+          <p style="margin-bottom: 10px">Book Cover</p>
+          <img class="fit-picture" src="img/book/1.jpg" style="height: 500px" />
 
-      <div class="title">Asphalt Book</div>
-      <div class="text">
-        I focused on the locker paint for the construction on the asphalt in the
-        city of New York. It may be easy to overlook, but it ultimately
-        signifies that the city is working for us. By connecting invisible
-        pipelines or gas lines through lines, I aimed to turn this into a book
-        and emphasize the sense of community in our community. I created it as
-        an unfoldable poster book by not binding it.
+          <img class="fit-picture" src="img/book/2.jpg" style="height: 500px" />
+          <br />
+          <p style="margin-bottom: 10px">Inside</p>
+          <img class="fit-picture" src="img/book/3.jpg" style="height: 500px" />
+          <img class="fit-picture" src="img/book/4.jpg" style="height: 500px" />
+          <img class="fit-picture" src="img/book/5.jpg" style="height: 500px" />
+          <br />
+          <p style="margin-bottom: 10px">You can make a poster</p>
+          <img class="fit-picture" src="img/book/6.jpg" style="height: 200px" />
+          ->
+          <img class="fit-picture" src="img/book/7.jpg" style="height: 700px" />
+        </center>
       </div>
     </div>
   </body>
 
   <style>
+    .grid-container {
+      border: 5px solid rgb(255, 225, 0);
+      display: grid;
+      grid-template-areas:
+        "title title title"
+        "text1 text2 text3"
+        "maintext maintext maintext"
+        "intention intention intention"
+        "img img img"
+        "video video video";
+      gap: px;
+      background-color: ;
+      padding: px;
+    }
+
+    .grid-container > div {
+      background-color: ;
+      border: 3px solid;
+      padding: 10px;
+      text-align: left;
+
+      font-size: ;
+    }
+
+    .grid-container > .item1 {
+      grid-area: title;
+      background-color: ;
+      border: 3px solid rgb(237, 212, 23);
+      text-align: left;
+      z-index: 10;
+
+      font-size: 100;
+      font-weight: 600;
+    }
+    .grid-container > .item2 {
+      grid-area: text1;
+      background-color: ;
+      border: 3px solid rgb(237, 212, 23);
+      text-align: left;
+      z-index: 10;
+
+      font-size: 20;
+      font-weight: ;
+    }
+    .grid-container > .item22 {
+      grid-area: text2;
+      background-color: ;
+      border: 3px solid rgb(237, 212, 23);
+      text-align: left;
+      z-index: 10;
+
+      font-size: 20;
+      font-weight: ;
+    }
+
+    .grid-container > .item222 {
+      grid-area: text3;
+      background-color: ;
+      border: 3px solid rgb(237, 212, 23);
+      text-align: left;
+      z-index: 10;
+
+      font-size: 20;
+      font-weight: ;
+    }
+    .grid-container > .item3 {
+      grid-area: maintext;
+      background-color: ;
+      border: 3px solid rgb(237, 212, 23);
+      text-align: left;
+      z-index: 10;
+
+      font-size: 100;
+      font-weight: 600;
+    }
+    .grid-container > .item4 {
+      grid-area: intention;
+      background-color: rgb(237, 212, 23);
+      border: 3px solid rgb(237, 212, 23);
+      text-align: left;
+      z-index: 10;
+      color: aliceblue;
+      margin-top: -10;
+      font-size: 18;
+      font-weight: 400;
+    }
+    .grid-container > .item5 {
+      grid-area: video;
+      background-color: ;
+      border: 3px solid rgb(237, 212, 23);
+      text-align: left;
+      z-index: 10;
+
+      font-size: 30;
+      font-weight: 600;
+    }
     body {
-      padding: 30px;
       font-family: "IBM Plex Sans", sans-serif;
     }
+
     .title {
       font-weight: 600;
       font-size: 100px;
+    }
+    .text {
+      font-weight: 500;
+      padding-bottom: 30px;
+      font-size: 30px;
     }
   </style>
 </html>
