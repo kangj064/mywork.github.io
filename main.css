@@ -249,7 +249,13 @@ COLOR : rgb(0, 89, 255);
   box-shadow: 10px 10px 10px rgb(0, 89, 255);
 }
 
-
+.image-thumbnail11 {
+  
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  z-index: 10;
+}
 
 .image-thumbnail12 { 
   
@@ -273,13 +279,25 @@ COLOR : rgb(0, 89, 255);
 }
 
 
-
-.image-thumbnail11 { 
+.image-thumbnail13 { 
   
   width:100%;
   height:100%;
   object-fit:cover;
   z-index: 10;
+}
+
+.image-box13 { /*시엔엔*/
+  position: absolute;
+  width: 130px;
+  height: 176px;
+  left: 368px;
+  top: 597.96px;
+  transform: rotate(344deg);
+  overflow: hidden;
+  margin: 0 auto;
+  z-index: 3;
+  box-shadow: 10px 10px 10px rgb(0, 89, 255);
 }
 
 .image{
