@@ -9,29 +9,155 @@
   </head>
   <body>
     <div class="grid-container">
-      <img class="fit-picture" src="img/book2.png" style="width: 500px" />
+      <div class="item1">Home</div>
 
-      <img class="fit-picture" src="img/book3.png" style="width: 500px" />
-
-      <div class="title">Home</div>
-      <div class="text">
-        I designed a "Home" book inspired by the game of "Minesweeper."
-        Minesweeper, resembling the shape of a house, shares a similarity where
-        losing one space means losing the house. This symbolizes that losing a
-        home signifies being unable to reach my true home, a memory of mine when
-        I lose.
+      <div class="item2">
+        <p>Book Design</p>
+      </div>
+      <div class="item22">
+        <p>Personal Artwork</p>
+      </div>
+      <div class="item222">
+        <p>09.2023 - 10. 2023</p>
+      </div>
+      <div class="item3">
+        <div class="text">
+          I designed a "Home" book inspired by the game of "Minesweeper."
+          Minesweeper, resembling the shape of a house, shares a similarity
+          where losing one space means losing the house. This symbolizes that
+          losing a home signifies being unable to reach my true home, a memory
+          of mine when I lose.
+        </div>
+      </div>
+      <div class="item4">
+        <p style="font-size: 50px; font-weight: 600">
+          <i> "If you lose even one, you lose your home." </i>
+        </p>
+        <p style="max-width: 1400px">
+          Inspired by the game 'Hopscotch,' I divided my memories into parts,
+          just like in Land Grab 1, 2, and 3. I aimed to give them a geometric
+          aesthetic. All memories and recollections, whether negative or
+          positive, are my own, and they are my home, shaping who I am.
+        </p>
+      </div>
+      <div class="item5">
+        <center>
+          <img class="fit-picture" src="img/book2.png" style="height: 600px" />
+          <img class="fit-picture" src="img/book3.png" style="height: 600px" />
+        </center>
       </div>
     </div>
   </body>
 
   <style>
+    .grid-container {
+      border: 5px solid rgb(21, 119, 60);
+      display: grid;
+      grid-template-areas:
+        "title title title"
+        "text1 text2 text3"
+        "maintext maintext maintext"
+        "intention intention intention"
+        "img img img"
+        "video video video";
+      gap: px;
+      background-color: ;
+      padding: px;
+    }
+
+    .grid-container > div {
+      background-color: ;
+      border: 3px solid;
+      padding: 10px;
+      text-align: left;
+
+      font-size: ;
+    }
+
+    .grid-container > .item1 {
+      grid-area: title;
+      background-color: ;
+      border: 3px solid rgb(21, 119, 60);
+      text-align: left;
+      z-index: 10;
+
+      font-size: 100;
+      font-weight: 600;
+    }
+    .grid-container > .item2 {
+      grid-area: text1;
+      background-color: ;
+      border: 3px solid rgb(21, 119, 60);
+      text-align: left;
+      z-index: 10;
+
+      font-size: 20;
+      font-weight: ;
+    }
+    .grid-container > .item22 {
+      grid-area: text2;
+      background-color: ;
+      border: 3px solid rgb(21, 119, 60);
+      text-align: left;
+      z-index: 10;
+
+      font-size: 20;
+      font-weight: ;
+    }
+
+    .grid-container > .item222 {
+      grid-area: text3;
+      background-color: ;
+      border: 3px solid rgb(21, 119, 60);
+      text-align: left;
+      z-index: 10;
+
+      font-size: 20;
+      font-weight: ;
+    }
+    .grid-container > .item3 {
+      grid-area: maintext;
+      background-color: ;
+      border: 3px solid rgb(21, 119, 60);
+      text-align: left;
+      z-index: 10;
+
+      font-size: 100;
+      font-weight: 600;
+    }
+    .grid-container > .item4 {
+      grid-area: intention;
+      background-color: rgb(21, 119, 60);
+      border: 3px solid rgb(21, 119, 60);
+      text-align: left;
+      z-index: 10;
+      color: aliceblue;
+      margin-top: -10;
+      font-size: 18;
+      font-weight: 400;
+    }
+    .grid-container > .item5 {
+      grid-area: video;
+      background-color: ;
+      border: 3px solid rgb(21, 119, 60);
+      text-align: left;
+      z-index: 10;
+
+      font-size: 30;
+      font-weight: 600;
+    }
     body {
-      padding: 30px;
       font-family: "IBM Plex Sans", sans-serif;
     }
+
     .title {
       font-weight: 600;
       font-size: 100px;
+    }
+    .text {
+      font-weight: 500;
+      padding-bottom: 30px;
+      font-size: 30px;
     }
   </style>
 </html>
