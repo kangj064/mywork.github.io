@@ -9,25 +9,194 @@
   </head>
   <body>
     <div class="grid-container">
-      <img class="fit-picture" src="img/posterr.png" style="height: 500px" />
+      <div class="item1">Poster</div>
 
-      <img class="fit-picture" src="img/poster2.png" style="height: 500px" />
+      <div class="item2">
+        <p>Poster Design</p>
+      </div>
+      <div class="item22">
+        <p>Personal Artwork</p>
+      </div>
+      <div class="item222">
+        <p>09.2023 - 10. 2023</p>
+      </div>
+      <div class="item3">
+        <div class="text">
+          <p style="max-width: 1400px">
+            I designed a "Home" book inspired by the game of "Minesweeper."
+            Minesweeper, resembling the shape of a house, shares a similarity
+            where losing one space means losing the house. This symbolizes that
+            losing a home signifies being unable to reach my true home, a memory
+            of mine when I lose.
+          </p>
+        </div>
+      </div>
+      <div class="item4">
+        <p style="font-size: 50px; font-weight: 600">
+          <i> "If you lose even one, you lose your home." </i>
+        </p>
+        <p style="max-width: 1400px">
+          Inspired by the game 'Hopscotch,' I divided my memories into parts,
+          just like in Land Grab 1, 2, and 3. I aimed to give them a geometric
+          aesthetic. All memories and recollections, whether negative or
+          positive, are my own, and they are my home, shaping who I am.
+          <br />
+        </p>
+      </div>
+      <div class="item5">
+        <center>
+          <p style="margin-bottom: 10px">Chopin</p>
+          <img
+            class="fit-picture"
+            src="img/poster/posterr.png"
+            style="height: 500px"
+          />
 
-      <div class="title">Chopin Poster</div>
-      <div class="text">
-        I expressed the warm tones of Chopin's music in a poster.
+          <img
+            class="fit-picture"
+            src="img//poster/poster2.png"
+            style="height: 500px"
+          />
+          <p style="margin-bottom: 10px">Korean Traditional House - Snail</p>
+          <img
+            class="fit-picture"
+            src="img//poster/poster3.png"
+            style="height: 500px"
+          />
+
+          <img
+            class="fit-picture"
+            src="img//poster/poster3_mock.png"
+            style="height: 500px"
+          />
+          <p style="margin-bottom: 10px">
+            Korean Traditional House2 - new world
+          </p>
+          <img
+            class="fit-picture"
+            src="img//poster/poster4.png"
+            style="height: 500px"
+          />
+
+          <img
+            class="fit-picture"
+            src="img//poster/poster4_mock.png"
+            style="height: 500px"
+          />
+        </center>
       </div>
     </div>
   </body>
 
   <style>
+    .grid-container {
+      border: 5px solid rgb(183, 13, 56);
+      display: grid;
+      grid-template-areas:
+        "title title title"
+        "text1 text2 text3"
+        "maintext maintext maintext"
+        "intention intention intention"
+        "img img img"
+        "video video video";
+      gap: px;
+      background-color: ;
+      padding: px;
+    }
+
+    .grid-container > div {
+      background-color: ;
+      border: 3px solid;
+      padding: 10px;
+      text-align: left;
+
+      font-size: ;
+    }
+
+    .grid-container > .item1 {
+      grid-area: title;
+      background-color: ;
+      border: 3px solid rgb(183, 13, 56);
+      text-align: left;
+      z-index: 10;
+
+      font-size: 100;
+      font-weight: 600;
+    }
+    .grid-container > .item2 {
+      grid-area: text1;
+      background-color: ;
+      border: 3px solid rgb(183, 13, 56);
+      text-align: left;
+      z-index: 10;
+
+      font-size: 20;
+      font-weight: ;
+    }
+    .grid-container > .item22 {
+      grid-area: text2;
+      background-color: ;
+      border: 3px solid rgb(183, 13, 56);
+      text-align: left;
+      z-index: 10;
+
+      font-size: 20;
+      font-weight: ;
+    }
+
+    .grid-container > .item222 {
+      grid-area: text3;
+      background-color: ;
+      border: 3px solid rgb(183, 13, 56);
+      text-align: left;
+      z-index: 10;
+
+      font-size: 20;
+      font-weight: ;
+    }
+    .grid-container > .item3 {
+      grid-area: maintext;
+      background-color: ;
+      border: 3px solid rgb(183, 13, 56);
+      text-align: left;
+      z-index: 10;
+
+      font-size: 100;
+      font-weight: 600;
+    }
+    .grid-container > .item4 {
+      grid-area: intention;
+      background-color: rgb(183, 13, 56);
+      border: 3px solid rgb(183, 13, 56);
+      text-align: left;
+      z-index: 10;
+      color: aliceblue;
+      margin-top: -10;
+      font-size: 18;
+      font-weight: 400;
+    }
+    .grid-container > .item5 {
+      grid-area: video;
+      background-color: ;
+      border: 3px solid rgb(183, 13, 56);
+      text-align: left;
+      z-index: 10;
+
+      font-size: 30;
+      font-weight: 600;
+    }
     body {
-      padding: 30px;
       font-family: "IBM Plex Sans", sans-serif;
     }
+
     .title {
       font-weight: 600;
       font-size: 100px;
+    }
+    .text {
+      font-weight: 500;
+      padding-bottom: 30px;
+      font-size: 30px;
     }
   </style>
 </html>
